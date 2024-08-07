@@ -1,0 +1,28 @@
+{
+  "name": "hardhat-tutorial",
+  "version": "1.0.0",
+  "description": "Hardhat's tutorial for beginners",
+  "main": "index.js",
+  "scripts": {
+    "init": "npx hardhat init",
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat ignition deploy ./ignition/modules/Token.js --network sepolia"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-kentaurse:kentaurse/hardhat.git"
+  },
+  "keywords": [
+    "key"
+  ],
+  "author": "Ethan Tan",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
